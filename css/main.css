@@ -1,0 +1,131 @@
+body {
+  margin:0 auto;
+  width: 1280px;
+}
+.nav-row {
+  background-color: black;
+  display: flex;
+  height: 40px;
+  justify-content:space-around;
+  align-items: center;
+}
+.page-header {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-image: url("../img/header-img.jpg");
+  background-size: cover;
+  height: 350px;
+}
+
+.header-content {
+  margin-top: -30px;
+}
+.header-content h1{
+  margin: 0;
+  font-family: 'Josefin Sans';
+  font-size: 70px;
+}
+.header-content h3 {
+  margin: 0;
+  font-family: 'Dancing Script';
+  color: white;
+  font-size: 40px;
+  text-shadow: 1px 1px 1px black;
+  margin-top: -30px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 1150px;
+  margin-top: -40px;
+  background-color: #fef9ec;
+  box-shadow: 2px 2px 2px 2px #D3D3D3;
+  flex-wrap: wrap;
+  height: 2200px;
+}
+.icon-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.blog-row {
+  padding-top: 50px;
+  width: 50%;
+}
+.item {
+  box-shadow: 2px 2px 2px 2px #D3D3D3;
+  margin-left: 60px;
+  width: 600px;
+  background-color: white;
+}
+.item i {
+  border-radius: 50%;
+  background-color: #e3cb9b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+}
+.blog-row .primary-txt {
+  width: 45%;
+}
+ #dino {
+  margin-left: 350px;
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  background-image: url("../img/dino.jpg");
+}
+#xx {
+  margin-left: 350px;
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  background-image: url("../img/xx.png");
+}
+#yhact-img {
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  background-image: url("../img/yhact.jpg");
+}
+.dino_text {
+  margin-top: -100px;
+  margin-left: 20px;
+}
+
+.xx_text {
+  margin-top: -200px;
+  margin-left: 20px;
+}
+aside .primary-txt {
+  width: 250px;
+}
+aside {
+  margin-left: 100px;
+  align-items: center;
+  background-color: #efeadf;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-shadow: 2px 2px 2px 2px #D3D3D3;
+  margin-top: 25px;
+}
+aside h3 {
+  text-align: center;
+  border-bottom: 2px solid black;
+  width: 200px;
+}
+ .auth-pic {
+  margin-top: 20px;
+  background-image: url("../img/author.jpeg");
+  background-size: cover;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
